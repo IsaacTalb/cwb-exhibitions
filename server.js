@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-// Sample data for products, articles, stories, and history
+// Sample data for products, articles, and stories
 const products = [
     { id: 1, name: 'Product 1', price: 19.99 },
     { id: 2, name: 'Product 2', price: 29.99 },
@@ -10,14 +10,14 @@ const products = [
 ];
 
 const articles = [
-    { id: 1, title: 'Article 1', content: 'Lorem ipsum...' },
-    { id: 2, title: 'Article 2', content: 'Dolor sit amet...' },
+    { id: 1, title: 'Article 1', content: 'Lorem ...' },
+    { id: 2, title: 'Article 2', content: 'Lorem...' },
     // Add more articles as needed
 ];
 
 const stories = [
-    { id: 1, title: 'Story 1', content: 'Consectetur adipiscing elit...' },
-    { id: 2, title: 'Story 2', content: 'Sed do eiusmod tempor...' },
+    { id: 1, title: 'Story 1', content: 'Lorem...' },
+    { id: 2, title: 'Story 2', content: 'Lorem ...' },
     // Add more stories as needed
 ];
 
